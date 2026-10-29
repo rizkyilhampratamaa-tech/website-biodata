@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio & Biodata Profesional</title>
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- AOS (Animate On Scroll) Library CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">Dev<span>Profile.</span></a>
+            <ul class="nav-menu">
+                <li><a href="#about"><i class="fa-solid fa-user"></i> Tentang</a></li>
+                <li><a href="#skills"><i class="fa-solid fa-code"></i> Keahlian</a></li>
+                <li><a href="#projects"><i class="fa-solid fa-laptop-code"></i> Proyek</a></li>
+                <li><a href="#contact"><i class="fa-solid fa-paper-plane"></i> Kontak</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-container">
+            <div class="hero-text" data-aos="fade-right" data-aos-duration="1000">
+                <span class="badge">Selamat Datang di Portofolio Saya</span>
+                <h1>Halo, Saya <br><span class="gradient-text">Nama Anda</span></h1>
+                <h3>Saya seorang <span id="typed-text"></span></h3>
+                <p>Pengembang perangkat lunak dan spesialis teknologi yang berfokus pada pembangunan solusi web interaktif, arsitektur jaringan, serta analisis sistem yang efisien.</p>
+                <div class="hero-btns">
+                    <a href="#projects" class="btn btn-primary"><i class="fa-solid fa-rocket"></i> Lihat Proyek</a>
+                    <a href="#contact" class="btn btn-secondary"><i class="fa-solid fa-envelope"></i> Hubungi Saya</a>
+                </div>
+            </div>
+            <div class="hero-image" data-aos="fade-left" data-aos-duration="1000">
+                <div class="img-wrapper">
+                    <!-- Foto Profil Profesional -->
+                    <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=800&q=80" alt="Foto Profil Utama">
+                    <div class="glow-effect"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tentang Saya Section -->
+    <section id="about" class="section bg-alt">
+        <div class="container">
+            <div class="section-title" data-aos="fade-up">
+                <h2>Tentang Saya</h2>
+                <p>Mengenal latar belakang, pendidikan, dan passion saya</p>
+            </div>
+            <div class="about-content">
+                <div class="about-card" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="card-icon"><i class="fa-solid fa-graduation-cap"></i></div>
+                    <h3>Pendidikan Tinggi</h3>
+                    <h4>S1 Teknik Informatika</h4>
+                    <p>Universitas Pamulang</p>
+                    <small>Fokus pada Algoritma, Pemrograman, Sistem Operasi, & Jaringan Komputer.</small>
+                </div>
+                <div class="about-card" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="card-icon"><i class="fa-solid fa-network-wired"></i></div>
+                    <h3>Spesialisasi Jaringan</h3>
+                    <h4>Infrastructure & Security</h4>
+                    <p>Cisco Packet Tracer / FTTH</p>
+                    <small>Berpengalaman merancang topologi jaringan VLAN, DHCP, dan arsitektur RT/RW Net.</small>
+                </div>
+                <div class="about-card" data-aos="zoom-in" data-aos-delay="300">
+                    <div class="card-icon"><i class="fa-solid fa-code-branch"></i></div>
+                    <h3>Pengembangan Software</h3>
+                    <h4>Full-Stack & Systems</h4>
+                    <p>Web & Desktop Apps</p>
+                    <small>Membangun aplikasi presensi absensi berbasis pengenalan wajah, MySQL, dan REST API.</small>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Keahlian (Skills) Section -->
+    <section id="skills" class="section">
+        <div class="container">
+            <div class="section-title" data-aos="fade-up">
+                <h2>Keahlian Teknis</h2>
+                <p>Teknologi dan tools yang biasa saya gunakan</p>
+            </div>
+            <div class="skills-grid">
+                <!-- Skill Item 1 -->
+                <div class="skill-box" data-aos="fade-up" data-aos-delay="100">
+                    <div class="skill-info">
+                        <span><i class="fa-brands fa-html5"></i> HTML5 / CSS3 / JavaScript</span>
+                        <span>90%</span>
+                    </div>
+                    <div class="progress-bar"><div class="progress" style="width: 90%;"></div></div>
+                </div>
+                <!-- Skill Item 2 -->
+                <div class="skill-box" data-aos="fade-up" data-aos-delay="200">
+                    <div class="skill-info">
+                        <span><i class="fa-brands fa-php"></i> PHP & MySQL (Backend)</span>
+                        <span>85%</span>
+                    </div>
+                    <div class="progress-bar"><div class="progress" style="width: 85%;"></div></div>
+                </div>
+                <!-- Skill Item 3 -->
+                <div class="skill-box" data-aos="fade-up" data-aos-delay="300">
+                    <div class="skill-info">
+                        <span><i class="fa-brands fa-python"></i> Python & C++</span>
+                        <span>80%</span>
+                    </div>
+                    <div class="progress-bar"><div class="progress" style="width: 80%;"></div></div>
+                </div>
+                <!-- Skill Item 4 -->
+                <div class="skill-box" data-aos="fade-up" data-aos-delay="400">
+                    <div class="skill-info">
+                        <span><i class="fa-solid fa-server"></i> Cisco Packet Tracer & Routing</span>
+                        <span>88%</span>
+                    </div>
+                    <div class="progress-bar"><div class="progress" style="width: 88%;"></div></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Proyek Unggulan Section -->
+    <section id="projects" class="section bg-alt">
+        <div class="container">
+            <div class="section-title" data-aos="fade-up">
+                <h2>Proyek Terbaru</h2>
+                <p>Beberapa karya dan riset teknis yang telah selesai dikerjakan</p>
+            </div>
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="project-img">
+                        <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=800&q=80" alt="Sistem Absensi">
+                    </div>
+                    <div class="project-body">
+                        <span class="project-tag">Web & AI</span>
+                        <h3>Sistem Absensi Face Recognition</h3>
+                        <p>Aplikasi web absensi mahasiswa berbasis AI pengenalan wajah menggunakan library face-api.js dan Geolocation API.</p>
+                        <div class="project-footer">
+                            <a href="#" class="project-link"><i class="fa-brands fa-github"></i> Source Code</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="project-img">
+                        <img src="https://images.unsplash.com/photo-1544197150-b99a580bb7a8?auto=format&fit=crop&w=800&q=80" alt="Topologi Jaringan">
+                    </div>
+                    <div class="project-body">
+                        <span class="project-tag">Networking</span>
+                        <h3>Desain Topologi FTTH & RT/RW Net</h3>
+                        <p>Perancangan dan simulasi arsitektur jaringan berbasis serat optik (ODP/ODC) dan Inter-VLAN Routing di Cisco Packet Tracer.</p>
+                        <div class="project-footer">
+                            <a href="#" class="project-link"><i class="fa-solid fa-diagram-project"></i> Detail Skema</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="project-
